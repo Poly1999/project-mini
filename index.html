@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Promo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="lang-switch">
+        <button data-lang="en">EN</button>
+        <button data-lang="ua">UA</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 data-i18n="heroTitle">21 Days to a Flexible Body</h1>
+      <p data-i18n="heroText">
+        Improve posture, stretch and tone up — just 20 minutes a day!
+      </p>
+      <button class="start-btn" data-i18n="startBtn">Start for free</button>
+    </main>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h2 data-i18n="modalTitle">Welcome!</h2>
+        <p data-i18n="modalText">
+          You’ve just taken the first step towards a more flexible body.
+        </p>
+        <button class="close-modal" data-i18n="closeBtn">Close</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
